@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PataRocketChat.iml" filepath="$PROJECT_DIR$/PataRocketChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-ddp/android-ddp.iml" filepath="$PROJECT_DIR$/android-ddp/android-ddp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log-wrapper/log-wrapper.iml" filepath="$PROJECT_DIR$/log-wrapper/log-wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistence-realm/persistence-realm.iml" filepath="$PROJECT_DIR$/persistence-realm/persistence-realm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocket-chat-android-widgets/rocket-chat-android-widgets.iml" filepath="$PROJECT_DIR$/rocket-chat-android-widgets/rocket-chat-android-widgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocket-chat-core/rocket-chat-core.iml" filepath="$PROJECT_DIR$/rocket-chat-core/rocket-chat-core.iml" />
+    </modules>
+  </component>
+</project>
