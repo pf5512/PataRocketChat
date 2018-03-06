@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Steve/Documents/TavanProject/Rocket.Chat.Android/player/src/main/assets"/><source path="/Users/Steve/Documents/TavanProject/Rocket.Chat.Android/player/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Steve/Documents/TavanProject/Rocket.Chat.Android/player/src/debug/assets"/></dataSet></merger>

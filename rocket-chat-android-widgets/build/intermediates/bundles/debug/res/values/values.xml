@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#044b76</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="color_accent">#FF2D91FA</color>
+    <color name="color_alert">#FFF44336</color>
+    <color name="color_embed_hostname">@color/color_timestamp</color>
+    <color name="color_icon_composer">#FFA8A8A8</color>
+    <color name="color_shadow">#FFE6E6E7</color>
+    <color name="color_timestamp">#FFA8A8A8</color>
+    <color name="color_user_status_away">#FFFFC107</color>
+    <color name="color_user_status_busy">#FFF44336</color>
+    <color name="color_user_status_offline">#FF607D8B</color>
+    <color name="color_user_status_online">#FF4CAF50</color>
+    <color name="highlight_text_background_color">#f8f8f8</color>
+    <color name="highlight_text_border_color">#ccc</color>
+    <color name="highlight_text_color">#333</color>
+    <color name="inline_attachment_box_background">@android:color/white</color>
+    <color name="inline_attachment_box_outline">#FFF0F0F0</color>
+    <color name="inline_attachment_quote_line">#FFCCCCCC</color>
+    <color name="serverstatus_outline">#c2c2c2</color>
+    <color name="serverstatus_selected">#FFFFFFFF</color>
+    <declare-styleable name="DividerView"><attr format="dimension" name="thickness"/></declare-styleable>
+    <declare-styleable name="RoomToolbar"><attr format="string" name="titleText"/><attr format="dimension" name="titleDrawablePadding"/></declare-styleable>
+    <declare-styleable name="WaitingView"><attr format="dimension" name="dotSize"/><attr format="integer" name="dotCount"/></declare-styleable>
+    <dimen name="def_divider_view_thickness">1dp</dimen>
+    <dimen name="def_waiting_view_dot_size">16dp</dimen>
+    <string name="click_to_load">Click to load</string>
+    <string name="message_composer_message_hint">Message</string>
+    <string name="no_channel_found">No channel found</string>
+    <string name="no_user_found">No user found</string>
+    <style name="TextAppearance.RocketChat" parent="TextAppearance.AppCompat"/>
+    <style name="TextAppearance.RocketChat.MessageAttachment" parent="TextAppearance.AppCompat.Body1"/>
+    <style name="TextAppearance.RocketChat.MessageAttachment.Description">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.RocketChat.MessageAttachment.Field.Title" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="TextAppearance.RocketChat.MessageAttachment.Hostname" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">8sp</item>
+    </style>
+    <style name="TextAppearance.RocketChat.MessageAttachment.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.RocketChat.MessageAttachment.Title.Link">
+        <item name="android:textColor">?android:attr/textColorLink</item>
+    </style>
+    <style name="TextAppearance.RocketChat.MessageBody" parent="TextAppearance.AppCompat.Body1">
+
+    </style>
+    <style name="TextAppearance.RocketChat.MessageBody.Highlight">
+        <item name="android:textColor">@color/highlight_text_color</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
